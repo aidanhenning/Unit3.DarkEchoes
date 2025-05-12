@@ -1,0 +1,16 @@
+h2 {
+  margin-bottom: 0.5rem;
+}
+.episode-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  list-style: none;
+}
+.episode-list li {
+  padding: 1rem;
+  border: 1px solid black;
+}
+.episode-list li:hover {
+  background-color: gainsboro;
+}
